@@ -10,7 +10,7 @@ from models import storage
 
 
 class HBNBCommand(cmd.Cmd):
-    prompt = "(hbnb)"
+    prompt = "(hbnb) "
 
     def do_EOF(self, *args):
         '''Usage: EOF
